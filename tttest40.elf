@@ -1,0 +1,363 @@
+
+
+Symbols from .vsteensy/build/tttest.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+_MSP|00001ea8|t|NOTYPE|||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:518
+s_hotTemp|20000fe4|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:12
+s_hot_ROOM|20000fe8|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:13
+s_roomC_hotC|20000fec|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:12
+s_hotCount|20000ff0|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:12
+schedule_transfer|00002930|t|FUNC|00000070||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:867
+run_callbacks|000029a0|t|FUNC|00000036||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:951
+endpoint0_transmit.constprop.1|000029d8|t|FUNC|000000a0||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:653
+isr|00002a78|t|FUNC|0000066c||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:214
+endpointN_notify_mask|20001204|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:92
+sof_usage|20001208|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:97
+endpoint0_notify_mask|20001214|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:91
+usb_reboot_timer|20001218|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:98
+endpoint0_setupdata|20001220|b|OBJECT|00000008||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:90
+reply_buffer|20001228|b|OBJECT|00000008||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:394
+endpoint0_buffer|20001230|b|OBJECT|00000008||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:96
+calibrating|20001239|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/analog.c:6
+qualifier_descriptor|60001724|t|OBJECT|0000000a||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:134
+device_descriptor|20000474|d|OBJECT|00000012||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:90
+__do_global_dtors_aux|00000020|t|FUNC|||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:83
+completed.8605|20000cdc|b|NOTYPE|||.bss
+frame_dummy|00000044|t|FUNC|||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:84
+object.8610|20000ce0|b|NOTYPE|||.bss
+__frame_dummy_init_array_entry|60001788|t|OBJECT|||.text.progmem
+std::_Function_handler<void (), setup::{lambda()#1}>::_M_invoke(std::_Any_data const&)|0000007c|t|FUNC|00000010||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/core_pins.h:2189
+std::_Function_base::_Base_manager<setup::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<setup::{lambda()#1}> const&, std::_Manager_operation)|0000008c|t|FUNC|0000000a||.text.itcm	c:\toolchain\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\arm-none-eabi\include\c++\5.4.1/functional:1734
+_GLOBAL__sub_I_t1|00000174|t|FUNC|00000070||.text.itcm
+TeensyTimerTool::timerPool|20000d08|b|OBJECT|0000001c||.bss
+__tcf_0|00000764|t|FUNC|00000020||.text.itcm
+__tcf_1|00000784|t|FUNC|00000020||.text.itcm
+__tcf_2|000007a4|t|FUNC|00000020||.text.itcm
+__tcf_3|000007c4|t|FUNC|00000020||.text.itcm
+_GLOBAL__sub_I__ZN15TeensyTimerTool4TMR1E|000013b0|t|FUNC|000002f0||.text.itcm
+_GLOBAL__sub_I__ZN15TeensyTimerTool12ErrorHandlerC2ER6Stream|000016ec|t|FUNC|00000024||.text.itcm
+__tcf_0|000018e0|t|FUNC|00000050||.text.itcm
+_GLOBAL__sub_I__ZN15TeensyTimerTool5PIT_t13isInitializedE|00001958|t|FUNC|000000a0||.text.itcm
+TeensyTimerTool::initYieldHook()::{lambda(EventResponder&)#1}::_FUN(EventResponder&)|00001a34|t|FUNC|0000005c||.text.itcm	C:\Users\lutz\source\Teensy\tttest/lib/TeensyTimerTool/src/Teensy/TCK//TCK.cpp:31
+_GLOBAL__sub_I__ZN15TeensyTimerTool5TCK_t13isInitializedE|00001af0|t|FUNC|00000018||.text.itcm
+TeensyTimerTool::er|20000444|d|OBJECT|00000020||.data
+yield::running|20000ff4|b|OBJECT|00000001||.bss
+rx_queue_transfer|00002660|t|FUNC|0000006c||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:131
+rx_event|000026cc|t|FUNC|000000b4||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:143
+usb_serial_flush_callback|00002780|t|FUNC|00000098||.text.itcm
+rx_index|2000102c|b|OBJECT|00000010||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:82
+tx_packet_size|2000103c|b|OBJECT|00000002||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:76
+tx_noautoflush|2000103e|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:59
+tx_head|2000103f|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:74
+rx_transfer|20001040|b|OBJECT|00000100||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:79
+rx_tail|20001140|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:85
+rx_list|20001144|b|OBJECT|00000009||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:86
+rx_packet_size|2000114e|b|OBJECT|00000002||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:83
+rx_buffer|20200000|b|OBJECT|00001000||.bss.dma	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:80
+txbuffer|20201000|b|OBJECT|00002000||.bss.dma	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:73
+rx_count|20001150|b|OBJECT|00000010||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:81
+rx_available|20001160|b|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:87
+rx_head|20001164|b|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:84
+tx_available|20001166|b|OBJECT|00000002||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:75
+tx_transfer|20001180|b|OBJECT|00000080||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:72
+impure_data|200004a0|d|OBJECT|00000428||.data
+__fini_array_end||U|NOTYPE|||*UND*
+__bss_start__||U|NOTYPE|||*UND*
+__bss_end__||U|NOTYPE|||*UND*
+software_init_hook||U|NOTYPE|||*UND*
+__fini_array_start||U|NOTYPE|||*UND*
+hardware_init_hook||U|NOTYPE|||*UND*
+__libc_fini||U|NOTYPE|||*UND*
+__stack||U|NOTYPE|||*UND*
+__memset_veneer|60001740|t|FUNC|00000008||.text.progmem
+__pwm_init_veneer|60001748|t|FUNC|00000008||.text.progmem
+__delay_veneer|60001750|t|FUNC|00000008||.text.progmem
+____libc_init_array_veneer|60001758|t|FUNC|00000008||.text.progmem
+__usb_init_serialnumber_veneer|60001760|t|FUNC|00000008||.text.progmem
+__startup_early_hook_veneer|60001768|t|FUNC|00000008||.text.progmem
+__startup_late_hook_veneer|60001770|t|FUNC|00000008||.text.progmem
+__main_veneer|60001778|t|FUNC|00000008||.text.progmem
+__set_arm_clock_veneer|60001780|t|FUNC|00000008||.text.progmem
+___init_veneer|00003cb0|t|FUNC|00000008||.text.itcm
+TeensyTimerTool::TMR_t<3u>::getTimer()|00000da4|W|FUNC|000000d0||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<2u>::pCH0|20000d7c|V|OBJECT|00000004||.bss
+TeensyTimerTool::GptChannel::getTriggerReload(float, unsigned long*)|0000102c|W|FUNC|00000070||.text.itcm
+TeensyTimerTool::TMR_t<1u>::pCH0|20000e6c|V|OBJECT|00000004||.bss
+usb_serial_available|00002924|T|FUNC|0000000c||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:230
+TeensyTimerTool::GPT_t<1u>::isr()|0000072c|W|FUNC|00000038||.text.itcm
+TeensyTimerTool::TMR_t<0u>::pCH3|20000db8|V|OBJECT|00000004||.bss
+startup_default_late_hook|00001eb4|T|FUNC|00000002||.text.itcm
+yield|000022d0|W|FUNC|000000f0||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/yield.cpp:50
+TeensyTimerTool::ITimerChannel::triggerDirect(unsigned long long)|00000a44|W|FUNC|00000006||.text.itcm
+usb_timer1_callback|2000120c|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:105
+TeensyTimerTool::PIT_t::channel|20000f04|B|OBJECT|00000080||.bss
+usb_string_manufacturer_name_default|60001670|T|OBJECT|00000018||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2719
+TeensyTimerTool::TMR_t<1u>::isInitialized|20000d37|V|OBJECT|00000001||.bss
+TeensyTimerTool::TMRChannel::~TMRChannel()|000001e8|W|FUNC|00000002||.text.itcm	C:\Users\lutz\source\Teensy\tttest/lib/TeensyTimerTool/src//Teensy/TMR/TMRChannel.h:56
+TeensyTimerTool::ITimerChannel::setPrescaler(int)|00000a2c|W|FUNC|00000006||.text.itcm
+TeensyTimerTool::ITimerChannel::setNextPeriod(unsigned long)|00000a54|W|FUNC|00000006||.text.itcm
+__malloc_unlock|00003978|T|FUNC|00000002||.text.itcm
+TeensyTimerTool::TMR_t<1u>::getTimer()|00000c04|W|FUNC|000000d0||.text.itcm
+analog_init|600015fc|T|FUNC|00000058||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/analog.c:165
+F_CPU_ACTUAL|20000468|D|OBJECT|00000004||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/clockspeed.c:8
+TeensyTimerTool::PITChannel::~PITChannel()|00001738|W|FUNC|00000020||.text.itcm	C:\Users\lutz\source\Teensy\tttest/lib/TeensyTimerTool/src/Teensy/PIT4//PITChannel.h:104
+guard variable for TeensyTimerTool::TMR_t<3u>::pCH1|20000d44|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR_t<1u>::pCH2|20000db0|V|OBJECT|00000004||.bss
+__exidx_end|00003ccc|R|NOTYPE|||.ARM.exidx
+EventResponder::runningFromYield|20001008|B|OBJECT|00000001||.bss
+__errno|000032ec|T|FUNC|0000000c||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<3u>::pCH3|20000d3c|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR_t<2u>::pCH3|20000da0|V|OBJECT|00000004||.bss
+ImageVectorTable|60001000|T|OBJECT|00000020||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/bootdata.c:24
+EventResponder::firstInterrupt|20000ff8|B|OBJECT|00000004||.bss
+TeensyTimerTool::TMRChannel::getMaxPeriod() const|000002ac|W|FUNC|00000020||.text.itcm
+TeensyTimerTool::errFunc|20000ef4|B|OBJECT|00000010||.bss
+digital_pin_to_info_PGM|2000014c|D|OBJECT|00000280||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/digital.c:24
+errno|20003280|B|OBJECT|00000004||.bss
+_etext|00003cc8|T|NOTYPE|||.text.itcm
+_sbss|20000cdc|B|NOTYPE|||.bss
+guard variable for TeensyTimerTool::TMR_t<0u>::pCH2|20000d64|V|OBJECT|00000004||.bss
+TeensyTimerTool::GPT_t<0u>::getTimer()|000008ac|W|FUNC|000000a4||.text.itcm
+TeensyTimerTool::PITChannel::start()|00001710|W|FUNC|00000014||.text.itcm
+TeensyTimerTool::TMR_t<1u>::callbacks|20000e70|V|OBJECT|00000040||.bss
+_stextload|600017a0|A|NOTYPE|||*ABS*
+loop|00000170|T|FUNC|00000002||.text.itcm	C:\Users\lutz\source\Teensy\tttest/src/main.cpp:14
+TeensyTimerTool::TMR_t<2u>::isr()|0000059c|W|FUNC|000000ac||.text.itcm
+usb_config_rx|000030e4|T|FUNC|00000064||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:801
+TeensyTimerTool::GPT_t<1u>::callback|20000dc4|V|OBJECT|00000010||.bss
+EventResponder::lastInterrupt|20000ffc|B|OBJECT|00000004||.bss
+memcpy|0000252c|T|FUNC|00000134||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/memcpy-armv7m.S:106
+TeensyTimerTool::TckChannel<unsigned long>::stop()|00000818|W|FUNC|00000008||.text.itcm
+TeensyTimerTool::TckChannel<unsigned long>::trigger(float)|00000e74|W|FUNC|00000078||.text.itcm
+systick_millis_count|20000fe0|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/delay.c:6
+TeensyTimerTool::ITimerChannel* TeensyTimerTool::TCK_t::getTimer<unsigned long>()|00000ab4|W|FUNC|00000080||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<3u>::callbacks|20000d78|V|OBJECT|00000004||.bss
+guard variable for TeensyTimerTool::TMR_t<2u>::pCH2|20000d4c|V|OBJECT|00000004||.bss
+usb_configuration|20001238|B|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:94
+FlexSPI_NOR_Config|60000000|T|OBJECT|00000200||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/bootdata.c:36
+TeensyTimerTool::TCK|200000f0|D|OBJECT|00000004||.data
+TeensyTimerTool::TMR_t<2u>::pCH0|20000e28|V|OBJECT|00000004||.bss
+TeensyTimerTool::PITChannel::begin(std::function<void ()>, float, bool)|00001780|W|FUNC|000000d4||.text.itcm
+usb_string_manufacturer_name|60001670|V|OBJECT|00000018||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2706
+malloc|00003348|T|FUNC|00000010||.text.itcm
+EventResponder::triggerEvent(int, void*)|00001a18|W|FUNC|0000001c||.text.itcm
+usb_init|60001510|T|FUNC|000000ec||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:117
+TeensyTimerTool::GPT1|200000dc|D|OBJECT|00000004||.data
+__malloc_top_pad|20001244|B|OBJECT|00000004||.bss
+systick_safe_read|20001270|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/delay.c:9
+_flexram_bank_config|aaaaaaab|A|NOTYPE|||*ABS*
+__dso_handle|2000043c|D|OBJECT|||.data
+_sdata|20000000|D|NOTYPE|||.data
+usb_config_descriptor_480|600016d8|T|OBJECT|0000004b||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:655
+_sbrk_r|0000397c|T|FUNC|00000024||.text.itcm
+startup_default_early_hook|00001eb0|T|FUNC|00000002||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:529
+ResetHandler|6000102c|T|FUNC|0000026c||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:54
+TeensyTimerTool::ITimerChannel::getTriggerReload(float, unsigned long long*)|00000a34|W|FUNC|00000006||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<1u>::pCH1|20000d5c|V|OBJECT|00000004||.bss
+usb_cdc_line_coding|200016c0|B|OBJECT|00000008||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:54
+TeensyTimerTool::TMR_t<1u>::pCH1|20000db4|V|OBJECT|00000004||.bss
+EventResponder::lastYield|20001000|B|OBJECT|00000004||.bss
+TeensyTimerTool::ITimerChannel::triggerDirect(unsigned long)|00000a4c|W|FUNC|00000006||.text.itcm
+EventResponder::~EventResponder()|000019f8|W|FUNC|00000020||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/EventResponder.h:72
+__malloc_max_sbrked_mem|20001240|B|OBJECT|00000004||.bss
+pinMode|00001f98|T|FUNC|00000080||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/digital.c:133
+guard variable for TeensyTimerTool::GPT_t<1u>::callback|20000d6c|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR3|200000ec|D|OBJECT|00000004||.data
+guard variable for TeensyTimerTool::TMR_t<0u>::pCH3|20000d60|V|OBJECT|00000004||.bss
+TeensyTimerTool::TckChannel<unsigned long>::begin(std::function<void ()>, float, bool)|000011a8|W|FUNC|000000ac||.text.itcm
+hab_csf|60006148|T|OBJECT|00000c00||.text.csf	C:\toolchain\Teensyduino\current_fork\cores\teensy4/bootdata.c:20
+_heap_end|20280000|T|NOTYPE|||.text.csf
+TeensyTimerTool::TMR_t<2u>::callbacks|20000e2c|V|OBJECT|00000040||.bss
+__exidx_start|00003cc4|R|NOTYPE|||.ARM.exidx
+EventResponder::firstYield|20001004|B|OBJECT|00000004||.bss
+TeensyTimerTool::GptChannel::~GptChannel()|00001138|W|FUNC|00000070||.text.itcm
+_global_impure_ptr|20000438|D|OBJECT|00000004||.data
+__libc_init_array|000032f8|T|FUNC|00000050||.text.itcm
+TeensyTimerTool::TckChannel<unsigned long>::tick()::lock|20000d24|V|OBJECT|00000001||.bss
+TeensyTimerTool::TMR_t<2u>::getTimer()|00000cd4|W|FUNC|000000d0||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<3u>::pCH2|20000d40|V|OBJECT|00000004||.bss
+guard variable for TeensyTimerTool::TMR_t<1u>::pCH3|20000d54|V|OBJECT|00000004||.bss
+HardFault_HandlerC|00001eb8|W|FUNC|0000008c||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:532
+TeensyTimerTool::GPT_t<0u>::callback|20000dd4|V|OBJECT|00000010||.bss
+_sbrk|00001f44|T|FUNC|00000030||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:787
+_sdataload|6000546c|A|NOTYPE|||*ABS*
+__brkval|2000046c|D|OBJECT|00000004||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:785
+usb_cdc_line_rtsdtr|20001168|B|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:56
+guard variable for TeensyTimerTool::TMR_t<2u>::pCH3|20000d48|V|OBJECT|00000004||.bss
+_init|60001730|T|FUNC|||.text.progmem
+usb_serial_reset|00002818|T|FUNC|00000002||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:92
+guard variable for TeensyTimerTool::TMR_t<1u>::pCH0|20000d84|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR_t<0u>::getTimer()|00000b34|W|FUNC|000000d0||.text.itcm
+TeensyTimerTool::BaseTimer::BaseTimer(TeensyTimerTool::ITimerChannel* (*)(), bool)|000016a0|T|FUNC|00000012||.text.itcm
+TeensyTimerTool::TCK_t::isInitialized|20000fd4|B|OBJECT|00000001||.bss
+vtable for TeensyTimerTool::GptChannel|20000048|V|OBJECT|00000048||.data
+usb_config_descriptor_12|6000168c|T|OBJECT|0000004b||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:1669
+_ebss|200032c0|B|NOTYPE|||.bss
+TeensyTimerTool::TMRChannel::~TMRChannel()|000009f4|W|FUNC|0000000e||.text.itcm
+TeensyTimerTool::TckChannel<unsigned long>::getTriggerReload(float, unsigned long*)|00000a6c|W|FUNC|00000048||.text.itcm
+_heap_start|20203060|B|NOTYPE|||.bss.dma
+TeensyTimerTool::GPT_t<0u>::isr()|000006f4|W|FUNC|00000038||.text.itcm
+_itcm_block_count|00000001|A|NOTYPE|||*ABS*
+endpoint0_transfer_data|20002000|B|OBJECT|00000020||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:66
+operator delete(void*, unsigned int)|00002528|T|FUNC|00000004||.text.itcm
+pwm_init|00002018|T|FUNC|000002b8||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/pwm.c:344
+TeensyTimerTool::TMR_t<0u>::pCH1|20000dc0|V|OBJECT|00000004||.bss
+TeensyTimerTool::TckChannel<unsigned long>::triggerDirect(unsigned long)|000007e4|W|FUNC|00000020||.text.itcm
+TeensyTimerTool::TMRChannel::~TMRChannel()|000001e8|W|FUNC|00000002||.text.itcm
+usb_pll_start|60001390|T|FUNC|00000064||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:451
+TeensyTimerTool::GptChannel::stop()|00000410|W|FUNC|00000012||.text.itcm
+__deregister_frame_info||w|NOTYPE|||*UND*
+endpoint0_transfer_ack|20002020|B|OBJECT|00000020||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:67
+usb_cdc_line_rtsdtr_millis|200016c8|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:55
+usb_transmit|000031e0|T|FUNC|00000028||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:986
+guard variable for TeensyTimerTool::GPT_t<0u>::callback|20000d70|V|OBJECT|00000004||.bss
+systick_isr|000024f0|T|FUNC|00000020||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/EventResponder.cpp:345
+startup_early_hook|00001eb0|W|FUNC|00000002||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:529
+TeensyTimerTool::GptChannel::start()|000003f8|W|FUNC|00000016||.text.itcm
+set_arm_clock|00001b08|T|FUNC|000002c4||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/clockspeed.c:30
+systick_cycle_count|20000fd8|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/delay.c:7
+vtable for TeensyTimerTool::TMRChannel|20000000|V|OBJECT|00000048||.data
+usb_string_serial_number_default|20000488|D|OBJECT|00000016||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2729
+_free_r|00003ae0|T|FUNC|000001d0||.text.itcm
+TeensyTimerTool::ITimerChannel::setCurrentPeriod(unsigned long)|00000a5c|W|FUNC|00000006||.text.itcm
+TeensyTimerTool::TMR_t<3u>::pCH2|20000d98|V|OBJECT|00000004||.bss
+__malloc_sbrk_base|20000cd8|D|OBJECT|00000004||.data
+usb_prepare_transfer|000031b0|T|FUNC|0000002e||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:837
+unused_interrupt_vector|00001e98|T|FUNC|00000018||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:516
+TeensyTimerTool::TckChannel<unsigned long>::~TckChannel()|0000088c|W|FUNC|00000020||.text.itcm	C:\Users\lutz\source\Teensy\tttest/lib/TeensyTimerTool/src//Teensy/TCK/TckChannel.h:19
+usb_timer0_callback|20001200|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:104
+tempmon_init|600013f4|T|FUNC|0000011c||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:23
+EventResponder::~EventResponder()|000019f8|W|FUNC|00000020||.text.itcm
+serialEvent()|00002520|W|FUNC|00000002||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/serialEvent.cpp:4
+__register_exitproc|000039a0|T|FUNC|000000a4||.text.itcm
+TeensyTimerTool::TMR_t<0u>::callbacks|20000eb4|V|OBJECT|00000040||.bss
+TeensyTimerTool::TckChannel<unsigned long>::tick()|00000840|W|FUNC|0000004c||.text.itcm
+TeensyTimerTool::TMR_t<2u>::isInitialized|20000d36|V|OBJECT|00000001||.bss
+_teensy_model_identifier|00000024|A|NOTYPE|||*ABS*
+__malloc_current_mallinfo|20001248|B|OBJECT|00000028||.bss
+HardwareSerial::s_serials_with_serial_events|2000100c|B|OBJECT|0000001c||.bss
+vtable for EventResponder|20000140|V|OBJECT|0000000c||.data
+TeensyTimerTool::TMR2|200000e8|D|OBJECT|00000004||.data
+TeensyTimerTool::BaseTimer::BaseTimer(TeensyTimerTool::ITimerChannel* (*)(), bool)|000016a0|T|FUNC|00000012||.text.itcm	C:\Users\lutz\source\Teensy\tttest/lib/TeensyTimerTool/src//baseTimer.cpp:8
+TeensyTimerTool::TMR_t<2u>::pCH1|20000da8|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR_t<3u>::pCH3|20000d94|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMRChannel::start()|000001ec|W|FUNC|0000001e||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<0u>::pCH0|20000d8c|V|OBJECT|00000004||.bss
+__cxa_atexit|000032e0|T|FUNC|0000000c||.text.itcm
+TeensyTimerTool::GPT_t<0u>::isInitialized|20000d34|V|OBJECT|00000001||.bss
+TeensyTimerTool::TMR_t<3u>::pCH1|20000d9c|V|OBJECT|00000004||.bss
+scale_cpu_cycles_to_microseconds|20000fdc|B|OBJECT|00000004||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/delay.c:8
+std::function<void ()>::~function()|00000220|W|FUNC|00000012||.text.itcm	c:\toolchain\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\arm-none-eabi\include\c++\5.4.1/functional:1829
+__malloc_av_|200008cc|D|OBJECT|00000408||.data
+TeensyTimerTool::PITChannel::getMaxPeriod() const|00001758|W|FUNC|00000028||.text.itcm
+__malloc_lock|00003974|T|FUNC|00000002||.text.itcm
+_VectorsRam|20001400|B|OBJECT|000002c0||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:25
+TeensyTimerTool::TMRChannel::stop()|0000020c|W|FUNC|00000012||.text.itcm
+t1|20000cf8|B|OBJECT|00000010||.bss	C:\Users\lutz\source\Teensy\tttest/src/main.cpp:7
+yield_active_check_flags|20000470|D|OBJECT|00000001||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/yield.cpp:44
+usb_high_speed|20001210|B|OBJECT|00000001||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:95
+TeensyTimerTool::PITChannel::clockFactor|20000440|D|OBJECT|00000004||.data
+memset|000038d8|T|FUNC|0000009a||.text.itcm
+main|00002510|T|FUNC|00000010||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/main.cpp:33
+__malloc_max_total_mem|2000123c|B|OBJECT|00000004||.bss
+usb_descriptor_buffer|20203000|B|OBJECT|0000004b||.bss.dma	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2684
+TeensyTimerTool::ITimerChannel::getTriggerReload(float, unsigned long*)|00000a3c|W|FUNC|00000006||.text.itcm
+usb_init_serialnumber|0000327c|T|FUNC|00000058||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2742
+__init_array_end|600017a0|T|NOTYPE|||.text.progmem
+_malloc_r|00003368|T|FUNC|00000570||.text.itcm
+HardwareSerial::s_count_serials_with_serial_events|20001028|B|OBJECT|00000001||.bss
+TeensyTimerTool::GPT2|200000e0|D|OBJECT|00000004||.data
+TeensyTimerTool::TMR_t<3u>::isr()|00000648|W|FUNC|000000ac||.text.itcm
+EventResponder::triggerEventNotImmediate()|000023c0|T|FUNC|00000080||.text.itcm
+__rtc_localtime|00000031|A|NOTYPE|||*ABS*
+TeensyTimerTool::TMRChannel::setPeriod(unsigned long)|00000378|W|FUNC|00000060||.text.itcm
+_malloc_trim_r|00003a44|T|FUNC|0000009c||.text.itcm
+string0|60001688|T|OBJECT|00000004||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2713
+startup_late_hook|00001eb4|W|FUNC|00000002||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:51
+TeensyTimerTool::TMR4|200000f4|D|OBJECT|00000004||.data
+_serialEvent_default|60001654|T|OBJECT|00000001||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/serialEvent.cpp:6
+TeensyTimerTool::PITChannel::trigger(float)|00001854|W|FUNC|0000008c||.text.itcm
+std::function<void ()>::~function()|00000220|W|FUNC|00000012||.text.itcm
+endpoint_queue_head|20003000|B|OBJECT|00000280||.bss	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:64
+usb_string_product_name|60001658|V|OBJECT|00000016||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2708
+delay|00001dcc|T|FUNC|000000cc||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/delay.c:51
+TeensyTimerTool::TMRChannel::setNextPeriod(unsigned long)|0000032c|W|FUNC|0000004c||.text.itcm
+_fini|00003cc0|T|FUNC|||.fini
+BootData|60001020|T|OBJECT|0000000c||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/bootdata.c:12
+guard variable for TeensyTimerTool::TMR_t<0u>::pCH1|20000d68|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMRChannel::setCurrentPeriod(unsigned long)|000002cc|W|FUNC|00000060||.text.itcm
+Panic_Temp_isr|00001f74|T|FUNC|00000024||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/tempmon.c:15
+TeensyTimerTool::GPT_t<1u>::getTimer()|00000950|W|FUNC|000000a4||.text.itcm
+TeensyTimerTool::TMR_t<0u>::pCH0|20000eb0|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR_t<3u>::isInitialized|20000d35|V|OBJECT|00000001||.bss
+TeensyTimerTool::GptChannel::triggerDirect(unsigned long)|00000424|W|FUNC|0000001e||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<1u>::pCH2|20000d58|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR1|200000e4|D|OBJECT|00000004||.data
+_impure_ptr|200008c8|D|OBJECT|00000004||.data
+TeensyTimerTool::GptChannel::~GptChannel()|00001254|W|FUNC|00000068||.text.itcm	C:\Users\lutz\source\Teensy\tttest/lib/TeensyTimerTool/src//Teensy/GPT/GPTChannel.h:74
+vtable for TeensyTimerTool::TckChannel<unsigned long>|20000090|V|OBJECT|0000004c||.data
+TeensyTimerTool::ITimerChannel::setPeriod(unsigned long)|00000a64|W|FUNC|00000006||.text.itcm
+__preinit_array_end|60001788|T|NOTYPE|||.text.progmem
+TeensyTimerTool::TMRChannel::trigger(float)|00000234|W|FUNC|00000078||.text.itcm
+TeensyTimerTool::TMRChannel::begin(std::function<void ()>, float, bool)|00000eec|W|FUNC|00000140||.text.itcm
+setup|00000098|T|FUNC|000000d8||.text.itcm	C:\Users\lutz\source\Teensy\tttest/src/main.cpp:9
+usb_descriptor_list|200003cc|D|OBJECT|0000006c||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2766
+TeensyTimerTool::TMR_t<0u>::pCH2|20000dbc|V|OBJECT|00000004||.bss
+TeensyTimerTool::PITChannel::stop()|00001724|W|FUNC|00000014||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<2u>::callbacks|20000d80|V|OBJECT|00000004||.bss
+_estack|20078000|T|NOTYPE|||.text.csf
+TeensyTimerTool::TckChannel<unsigned long>::~TckChannel()|0000088c|W|FUNC|00000020||.text.itcm
+TeensyTimerTool::TckChannel<unsigned long>::start()|00000804|W|FUNC|00000014||.text.itcm
+usb_serial_configure|0000281c|T|FUNC|00000108||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_serial.c:98
+TeensyTimerTool::GptChannel::getMaxPeriod() const|000003d8|W|FUNC|00000020||.text.itcm
+_edata|20000cdc|D|NOTYPE|||.data
+TeensyTimerTool::TMR_t<2u>::pCH2|20000da4|V|OBJECT|00000004||.bss
+TeensyTimerTool::postError(TeensyTimerTool::errorCode)|000016c8|T|FUNC|00000024||.text.itcm
+     for TeensyTimerTool::TMR_t<3u>::pCH0|20000d74|V|OBJECT|00000004||.bss
+TeensyTimerTool::PITChannel::~PITChannel()|00001738|W|FUNC|00000020||.text.itcm
+ultoa|0000322c|T|FUNC|0000004e||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/nonstd.c:37
+TeensyTimerTool::TCK_t::channels|20000f84|B|OBJECT|00000050||.bss
+TeensyTimerTool::GptChannel::~GptChannel()|00001254|W|FUNC|00000068||.text.itcm
+std::function<void (TeensyTimerTool::errorCode)>::~function()|000016b4|W|FUNC|00000012||.text.itcm	c:\toolchain\gcc\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\arm-none-eabi\include\c++\5.4.1/functional:1829
+operator new(unsigned int)|00002524|T|FUNC|00000004||.text.itcm
+EventResponder::runFromInterrupt()|00002440|T|FUNC|00000044||.text.itcm
+__malloc_trim_threshold|20000cd4|D|OBJECT|00000004||.data
+TeensyTimerTool::TMR_t<1u>::pCH3|20000dac|V|OBJECT|00000004||.bss
+TeensyTimerTool::GPT_t<1u>::isInitialized|20000d2c|V|OBJECT|00000001||.bss
+__init_array_start|60001788|T|NOTYPE|||.text.progmem
+TeensyTimerTool::ITimerChannel::getPeriod()|000001e4|W|FUNC|00000004||.text.itcm
+F_BUS_ACTUAL|20000464|D|OBJECT|00000004||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/clockspeed.c:9
+TeensyTimerTool::TMR_t<0u>::isInitialized|20000d38|V|OBJECT|00000001||.bss
+_stext|00000000|T|NOTYPE|||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:12
+TeensyTimerTool::GPT_t<1u>::channel|20000d28|V|OBJECT|00000004||.bss
+TeensyTimerTool::GptChannel::begin(std::function<void ()>, float, bool)|000012bc|W|FUNC|000000f4||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<2u>::pCH1|20000d50|V|OBJECT|00000004||.bss
+TeensyTimerTool::TMR_t<3u>::callbacks|20000de8|V|OBJECT|00000040||.bss
+usb_string_product_name_default|60001658|T|OBJECT|00000016||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2724
+TeensyTimerTool::TMR_t<3u>::pCH0|20000de4|V|OBJECT|00000004||.bss
+EventResponder::detachNoInterrupts()|00002488|T|FUNC|00000068||.text.itcm
+configure_cache|60001298|T|FUNC|000000f8||.text.progmem	C:\toolchain\Teensyduino\current_fork\cores\teensy4/startup.c:221
+TeensyTimerTool::initYieldHook()|00001a90|T|FUNC|00000060||.text.itcm
+TeensyTimerTool::TckChannel<unsigned long>::getMaxPeriod() const|00000820|W|FUNC|00000020||.text.itcm
+_Jv_RegisterClasses||w|NOTYPE|||*UND*
+TeensyTimerTool::GPT_t<0u>::channel|20000d30|V|OBJECT|00000004||.bss
+__preinit_array_start|60001788|T|NOTYPE|||.text.progmem
+usb_receive|00003208|T|FUNC|00000024||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:994
+TeensyTimerTool::TMR_t<0u>::isr()|00000444|W|FUNC|000000ac||.text.itcm
+guard variable for TeensyTimerTool::TMR_t<1u>::callbacks|20000d88|V|OBJECT|00000004||.bss
+_flashimagelen|00006d44|A|NOTYPE|||*ABS*
+vtable for TeensyTimerTool::PITChannel|200000f8|V|OBJECT|00000048||.data
+__aeabi_atexit|000032d4|T|FUNC|0000000a||.text.itcm
+TeensyTimerTool::TMR_t<1u>::isr()|000004f0|W|FUNC|000000ac||.text.itcm
+__register_frame_info||w|NOTYPE|||*UND*
+TeensyTimerTool::TckChannel<unsigned long>::~TckChannel()|00000a04|W|FUNC|00000028||.text.itcm
+pendablesrvreq_isr|00002484|T|FUNC|00000004||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/EventResponder.cpp:89
+guard variable for TeensyTimerTool::TMR_t<0u>::callbacks|20000d90|V|OBJECT|00000004||.bss
+usb_config_tx|00003148|T|FUNC|00000068||.text.itcm	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb.c:809
+TeensyTimerTool::PITChannel::~PITChannel()|00001930|W|FUNC|00000028||.text.itcm
+TeensyTimerTool::GptChannel::trigger(float)|0000109c|W|FUNC|0000009c||.text.itcm
+free|00003358|T|FUNC|00000010||.text.itcm
+std::function<void (TeensyTimerTool::errorCode)>::~function()|000016b4|W|FUNC|00000012||.text.itcm
+usb_string_serial_number|20000488|V|OBJECT|00000016||.data	C:\toolchain\Teensyduino\current_fork\cores\teensy4/usb_desc.c:2710
