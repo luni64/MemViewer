@@ -1,0 +1,6 @@
+[submodule "lib/fmt"]
+	path = lib/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "lib/libfort"]
+	path = lib/libfort
+	url = https://github.com/seleznevae/libfort.git
