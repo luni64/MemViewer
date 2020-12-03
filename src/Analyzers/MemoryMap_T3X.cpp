@@ -92,8 +92,8 @@ void MemoryMap_T3X::print()
         if (i >= 1500) break;
     }
 
-    file:///C:/Users/lutz/source/Teensy/tttest/.vsteensy/build/n.lst
-    
+
+
 
 
 

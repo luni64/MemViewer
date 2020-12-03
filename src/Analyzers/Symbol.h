@@ -23,3 +23,5 @@ struct Symbol
     char bind;
     std::string section;
 };
+
+using SymTab = std::vector<Symbol>;

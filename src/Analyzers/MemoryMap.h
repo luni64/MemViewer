@@ -5,7 +5,7 @@
 #include <vector>
 #include "fort.hpp"
 
-using SymTab = std::vector<Symbol>;
+
 
 class MemoryMap
 {
