@@ -21,3 +21,9 @@ string fmtPerc(double p)
 {
     return fmt::format("{:>.1f}%",p);
 }
+
+
+bool stringStartsWith(const std::string& s1, const std::string& s2)
+{
+    return s1.find(s2) == 0;
+}
